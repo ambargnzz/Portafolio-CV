@@ -1,0 +1,215 @@
+
+nav .logo h2{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.logo span{
+    color: #232425;
+    font-size: 1rem;
+    font-weight: 100;
+}
+
+.about-section {
+    height: 700px;
+    margin-bottom: 259px;
+  }
+  
+.about-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 600px;
+    justify-content: center;
+  
+}
+  
+.about-content img {
+    width: 500px; /* Ajusta el tamaño de tu imagen */
+    margin-right: 0px;
+    margin-right: 40px;
+}
+  
+  
+.text {
+    text-align: left;  
+    margin-bottom: 190px;
+    margin-top: 137px;
+}
+  
+.text p, form{
+    font-family: 'ffff', sans-serif;
+    color: #2f2e2e;
+}
+  
+.text h1{
+    margin-bottom: 0px;
+    font-size: 80px;
+}
+  
+.text h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+  
+img{
+    border-radius: 10px;
+}
+  
+.boton {
+   display: inline-block;
+   width: 110px;
+   height: 109px;
+   border-radius: 50%; /* Esto crea botones redondos */
+   background-color: #f2f2f2;
+   text-align: center;
+   line-height: 100px; /* Centra el texto verticalmente */
+   color: black;
+   cursor: pointer;
+   box-shadow: 0px 0px 0px 1px rgb(128, 128, 128);
+   margin-right: 19px;
+   margin-left: -2px;
+   font-size: 17px;
+   margin-top: 20px;
+   font-weight: 500;
+}
+ 
+ /* HERRAMIENTA: Gradient Maker 
+ Bg1. una medida como rgb / bg2. Efecto gradiante / bg3.Para mozilla / bg4: Para los demas navegadores webkit
+ */
+.boton:hover{
+    transition: color 1s ; /* Agrega una transición suave al cambio de color */
+    transition: background-color  0.9s;
+    box-shadow: 0px 0px 0px 1px rgb(194, 211, 87);
+    color: white;
+    background-color: rgb(194, 211, 87);
+}
+
+.boton-cv a{
+    list-style: none;
+}
+
+  
+
+/* CONTENIDO CURRICULUM */
+.experiencia-laboral, .educacion, .habilidades{
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+  
+#main-curriculum h1{
+    margin-top: 100px;
+    margin-left: 232px;
+    margin-bottom: 50px;
+}
+
+
+  
+.educacion, .habilidades{
+    margin-top: 75px;
+}
+
+
+/* Proyecto 1 */
+
+.mis-proyectos h1{
+    margin-top: 140px;
+    font-size: 40px;
+    margin-bottom: 70px;
+    margin-left: 228px;
+}
+
+.mis-proyectos h2{
+    margin-left: 228px;
+    margin-bottom: -22px;
+}
+
+.proyectos{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 228px;
+    margin-bottom: 210px;
+}
+
+.proyectos p{
+    margin-right: 85px;
+    margin-top: 42px;
+    /* font-family: 'Poppins', sans-serif; */
+}
+
+
+/* Estilos contacto */
+
+.text-contact h1{
+    margin-bottom: 0;
+    font-size: 50px;
+}
+
+.text-contact h2{
+    margin-top: 31px;
+    margin-bottom: 0px;
+}
+
+.content-contact{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    margin-top: 111px;
+    justify-content: space-around;
+    margin-bottom: 250px;
+}
+
+.text-contact .form-container{
+    width: 50%;
+    margin: 0;
+}
+
+/* Estilos formulario */
+.form-container {
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 8px;
+    min-width: 400px;
+    min-height: 343px;
+}
+
+.form-row {
+    display: flex;
+    margin-bottom: 16px;
+    flex-direction: column;
+}
+
+.form-label {
+    flex: 1;
+    padding: 8px 8px 8px 0px;
+}
+
+.form-input {
+    flex: 2;
+    padding: 8px;
+    border: 1px solid #070707;
+    min-height: 30px;
+    background: none;
+}
+
+.form-button {
+    align-self: flex-end;
+    color: #0f0f0f;
+    padding: 10px 15px;
+    border: solid black 1px;
+    cursor: pointer;
+}
+
+.form-button:hover {
+    background-color: #d2d2d2;
+}

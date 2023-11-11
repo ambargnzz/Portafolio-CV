@@ -1,0 +1,116 @@
+
+
+@font-face {
+  font-family: 'wolff';
+  src: url('../fonts/0078f486-8e52-42c0-ad81-3c8d3d43f48e.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ffff';
+  src: url('../fonts/WixMadeforTextVF_W_Wght.8022447a.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'llll';
+  src: url('../fonts/z9rX03Xuz9ZNHTMg1_ghGRUOjZSKWg4xBWp_C_qQx0o.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html, body {
+  font-family: 'wolf', sans-serif;
+  font-weight: 100;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2; 
+}
+
+h1, h2, h3, h4{
+  font-family:  'llll', sans-serif ;
+
+}
+  
+  /* Header y navegación */
+header {
+    color: black;
+    padding: 10px 0;
+}
+  
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+/* Logo y Nombre */
+.logo {
+  display: flex;
+  align-items: center;
+}
+  
+/* Usé CANVA para hacer una imagen redonda */
+.logo img {
+  width: 50px; /* Ajusta el ancho de tu logo */
+  margin-right: 10px;
+}
+
+.logo h1 {
+  font-size: 24px;
+}
+
+/* Navegación */
+.nav-list {
+  list-style: none;
+  padding: 0;
+}
+
+.nav-list li {
+  display: inline;
+  margin: 0 20px;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: #060606;
+}
+    
+  /* Estilo para el enlace activo (página actual) */
+.nav-list li a.current {
+  font-weight: bold;
+  color: #000000e2;
+}
+
+/* Estilo de hover */
+.nav-list a:hover {
+  color: rgb(184, 209, 71);
+  transition: color 0.9s; /* Agrega una transición suave al cambio de color */
+}
+  
+.active{
+    color: rgb(168, 224, 71) !important;
+}
+  
+/* Estilos footer */
+
+.elements-footer{
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.2rem;
+
+}
+
+footer{
+  margin-bottom: 30px;
+  margin-top: 40px;
+  height: 100px;
+}
+
+hr{
+  width: 90%;
+}
